@@ -1,0 +1,134 @@
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../images/seigaiha.png);
+    margin-bottom: 4%;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 21px;
+    margin-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 11%;
+    width: 960px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+  
+li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #dddddd;
+}
+
+.pipe {
+    margin-top: 1.25%;
+    color: #dddddd;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    position: absolute;
+    top: 0;
+    left: 0.5%;
+    margin-left: 10%;
+}
+
+.main {
+    border: 1px solid #cccccc;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    height: 100%;
+    width: 942px;
+    background-color:#ffffff;
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    padding-top: 16px;  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    background-color: #666666;
+    color: #cccccc;
+    border-top: 8px solid #4aaaa5;
+    text-align: center; 
+}
+
+.biopic {
+    float: left;
+    padding: 3%;
+}
+
+.bio {
+    color: #777777;
+    padding: 1%;
+}
+
+.wrapper {
+    margin-left: 27.5%;
+}
+
+.boxset {
+    margin: 2px;
+    display: flex;
+}
+
+.box {
+    margin-right: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 0%;
+    width: 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
