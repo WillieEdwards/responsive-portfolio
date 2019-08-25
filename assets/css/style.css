@@ -222,8 +222,20 @@ body {
 
   @media screen and (max-width: 768px) {
     .container {
-        width: 600px;
+        width: 700px;
     }
+
+    .auth-image {
+        width: 320px;
+        float: left;
+        height: auto;
+        margin-top: 10px;
+      }
+
+      .work {
+          width: 297px;
+          margin-bottom: 10px;
+      }
   }
 
   @media screen and (max-width: 640px) {
@@ -256,10 +268,8 @@ body {
       }
 
     .work {
-        position: relative;
         width: 350px;
         margin: 20px 0 25px 100px;
         overflow: auto;
-        float: center;
       }
   }
