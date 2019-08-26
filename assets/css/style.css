@@ -215,74 +215,51 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-device-width: 980px) {
-
-  #masthead {
-      padding-right: 50px;
-      padding-left: 50px;
-  }
-
-  #main-container {
-      padding-right: 300px;
-      padding-left: 50px;
-  }
-
-  .work {
-      width: 250px;
-      margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
-      width: 95%; 
+    width: 700px;
   }
 
   #masthead {
-      padding-right: 0;
-      padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   #main-container {
-      padding-right: 0;
-      padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .auth-image {
-      width: 440px;
-    }
+    width: 320px;
+  }
 
   .work {
-      width: 405px;
-      margin-bottom: 10px;
-    }
+    width: 297px;
+  }
 }
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-width: 640px) {
   .container {
-      width: 95%;
+    width: 607px;
   }
 
   nav {
-      margin-right: 36%;
-      padding-bottom: 20px;
+    margin-right: 30%;
+    padding-bottom: 20px;
   }
 
   #logo {
-      width: 100%;
-      text-align: center;
-    }
+    width: 100%;
+  }
 
   .auth-image {
-      width: 770px;
-      height: auto;
-      margin-top: 10px;
-      margin-left: 40px;
+    width: 460px;
+    margin-left: 40px;
     }
 
   .work {
-      width: 650px;
-      margin: 20px 0 25px 100px;
-      overflow: auto;
-    }
-}
+    width: 350px;
+    margin: 20px 0 25px 100px;
+  }
+} 
