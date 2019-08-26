@@ -215,7 +215,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-device-width: 980px) and (min-device-width: 769px) {
+@media screen and (max-device-width: 980px) {
 
   #masthead {
       padding-right: 50px;
@@ -228,14 +228,14 @@ input[type=submit] {
   }
 
   .work {
-      width: 247px;
+      width: 250px;
       margin-bottom: 10px;
     }
 }
 
-@media screen and (max-device-width: 768px) and (min-device-width: 641px) {
+@media screen and (max-device-width: 768px) {
   .container {
-      width: 700px; 
+      width: 95%; 
   }
 
   #masthead {
@@ -249,22 +249,23 @@ input[type=submit] {
   }
 
   .auth-image {
-      width: 320px;
+      width: 440px;
     }
 
   .work {
-      width: 297px;
+      width: 405px;
       margin-bottom: 10px;
     }
 }
 
 @media screen and (max-device-width: 640px) {
   .container {
-      width: 607px;
+      width: 95%;
   }
 
   nav {
-      margin-right: 30%;
+      margin-right: 36%;
+      padding-bottom: 20px;
   }
 
   #logo {
@@ -273,14 +274,14 @@ input[type=submit] {
     }
 
   .auth-image {
-      width: 460px;
+      width: 770px;
       height: auto;
       margin-top: 10px;
       margin-left: 40px;
     }
 
   .work {
-      width: 350px;
+      width: 650px;
       margin: 20px 0 25px 100px;
       overflow: auto;
     }
